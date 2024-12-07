@@ -1,5 +1,5 @@
-# iasearcher
-IA Searcher
+# IA Searcher
+Using Lang Chain to search specific data.
 
 # Install Pipenv
 ```bash

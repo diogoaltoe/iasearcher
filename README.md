@@ -49,3 +49,23 @@ Select pipenv related to the project env
 ```bash
 pipenv install black
 ```
+
+### Install Lang Chain Ollama package
+```bash
+pipenv install langchain-ollama
+```
+
+### Install Ollama Model
+```bash
+ollama pull ollama3.2
+```
+
+### Install Mistral Model
+```bash
+ollama pull mistral
+```
+
+### Install Gemma2 Model
+```bash
+ollama pull gemma2
+```

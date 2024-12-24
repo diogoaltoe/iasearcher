@@ -1,4 +1,4 @@
-# IA Searcher
+# IA Country Searcher
 
 IA Searcher is an intelligent search application built using LangChain, Streamlit, ChatOllama and LangSmith. The project is designed to fetch and format specific data by integrating various tools and APIs. This project is inspired by an existing one but includes significant improvements and customizations.
 
@@ -105,26 +105,7 @@ This project was inspired by the course [LangChain - Develop LLM powered applica
 
 ## Sequence Diagram
 
-```plantuml
-@startuml
-actor EndUser as EU
-participant Streamlit as UI
-participant "LangChain (Agent)" as LC_Agent
-participant "Google Search API" as Google
-participant "LangChain (Tools)" as LC_Tools
-participant Wikipedia
-
-EU -> UI: Enter country name
-UI -> LC_Agent: Search country on Google
-LC_Agent -> Google: Query for Wikipedia pages
-Google --> LC_Agent: Wikipedia page results
-LC_Agent -> LC_Tools: Pass Wikipedia URL
-LC_Tools -> Wikipedia: Crawl country details
-Wikipedia --> LC_Tools: Country details (parsed)
-LC_Tools --> UI: Country data object
-UI --> EU: Display country details
-@enduml
-```
+![Sequence Diagram](assets/sequence-diagram.png)
 
 ---
 

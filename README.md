@@ -69,3 +69,25 @@ ollama pull mistral
 ```bash
 ollama pull gemma2
 ```
+
+### Install Google Community
+```bash
+pipenv install langchain-google-community
+```
+
+### Beautiful Soup scrape information from web pages
+```bash
+pip install beautifulsoup4
+```
+
+### Install Flask
+```bash
+pipenv install Flask
+```
+
+## 
+
+- Ollama instead of OpenAI
+- Streamlit instead of Flask + HTML
+- Google Search API instead of Tavily Search
+- Wikipedia Crawler instead of Proxycurl or Tweepy

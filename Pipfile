@@ -11,6 +11,8 @@ langchainhub = "*"
 python-dotenv = "*"
 black = "*"
 langchain-ollama = "*"
+langchain-google-community = "*"
+beautifulsoup4 = "*"
 
 [dev-packages]
 

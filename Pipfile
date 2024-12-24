@@ -13,6 +13,7 @@ black = "*"
 langchain-ollama = "*"
 langchain-google-community = "*"
 beautifulsoup4 = "*"
+streamlit = "*"
 
 [dev-packages]
 

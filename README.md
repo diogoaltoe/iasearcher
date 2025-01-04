@@ -100,6 +100,11 @@ This project was inspired by the course [LangChain - Develop LLM powered applica
    ```bash
    streamlit run main.py
    ```
+2. Streamlit should open the page on you browser:
+  ![Search Page](assets/01-search-page.png)
+3. Type the country name and press the [Enter] key on the keyboard. The app will search for that country name and show it's details:
+  ![Brazil Details](assets/02-brazil-details.png)
+  ![Canada Details](assets/03-canada-details.png)
 
 ---
 
